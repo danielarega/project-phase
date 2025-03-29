@@ -1,10 +1,15 @@
 import React from 'react'
+import Header from '../../components/header/header'
+import Footer from '../../components/footer/footer'
 
 function Home() {
   return (
-    <div>
-      home
-    </div>
+    <>
+    <Header/>
+    <Footer/>
+    </>
+      
+    
   )
 }
 
