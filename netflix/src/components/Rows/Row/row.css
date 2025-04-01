@@ -44,3 +44,14 @@
     position: relative;
     z-index: 1;
   }
+  .row_poster {
+    cursor: pointer;
+    transition: transform 450ms;
+  }
+  
+  .row_poster:hover {
+    transform: scale(1.08);
+    opacity: 0.9;
+  }
+  
+  /* Keep all your existing row styles */
